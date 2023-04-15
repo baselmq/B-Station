@@ -1,0 +1,73 @@
+/* ----------*** Career CSS code start ***---------- */
+
+.career {
+    margin: 100px 100px;
+}
+
+.career h1 {
+    text-align: center;
+    margin-bottom: 7%;
+}
+
+.career h1 span {
+    color: #409B95;
+}
+
+.career-container {
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    margin: 0 15%;
+    gap: 10px 0;
+
+}
+
+.job {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 5%;
+    align-items: center;
+}
+
+.career-header {
+    background-color: #409B95;
+    color: white;
+
+}
+
+.career-container button {
+    background-color: #409B95;
+    color: white;
+    border: 0px solid #409B95;
+    padding: 5px;
+    font-size: .8rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.job-link1,
+.job-link3,
+.job-link5 {
+    background-color: #ebf6ed;
+}
+
+.job-link2,
+.job-link4 {
+    background-color: #f7fcf8;
+}
+
+@media screen and (max-width: 768px) {
+    .career {
+        margin: 20px 20px;
+    }
+
+    .job {
+        font-size: 0.6rem;
+    }
+
+    h1 {
+        font-size: 1rem;
+    }
+}

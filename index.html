@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="assets/icon/logo-b.svg" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main-style.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/bootstrap-custom.css" />
+    <title>B-Station</title>
+  </head>
+  <body>
+    <!-- ------------------*** Header*** ------------------ -->
+    <header>
+      <nav class="my-navbar">
+        <a href="#" class="nav-branding"
+          ><img src="assets/icon/logo.svg" alt="logo"
+        /></a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="pages/courses.html" class="nav-link">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a href="pages/about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="pages/career.html" class="nav-link">Career</a>
+          </li>
+
+          <li class="nav-item flex-space">
+            <a href="pages/contact.html" class="nav-link">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="pages/login.html" class="nav-link"> Sign in</a>
+          </li>
+          <li class="nav-item">
+            <a href="pages/register.html" class="nav-link"> Sign up</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+    <div style="width: 100%; height: 70px"></div>
+    <!-- ------------------*** main *** ------------------ -->
+    <main>
+      <!-- ------------------*** slider *** ------------------ -->
+      <div class="slider">
+        <!-- <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="assets/images/cover-1.svg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>
+                  <a href="">Get Started</a>
+                </p>
+                <p>
+                  <a href="">Get Started</a>
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/4.jpg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>
+                  Some representative placeholder content for the second slide.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/3.jpg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>
+                  Some representative placeholder content for the third slide.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div> -->
+        <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#hero-carousel"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#hero-carousel"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#hero-carousel"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active c-item">
+              <div class="overlay-image cover-2"></div>
+              <div class="container">
+                <h1>Learn, Grow, Succeed: Enroll in Our Expert-Led Courses</h1>
+                <div class="custom-btn">
+                  <a href="#" class="my-btn">Get Started </a>
+                  <a href="#" class="my-btn"> Get free trial </a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item c-item">
+              <div class="overlay-image cover-1"></div>
+              <div class="container">
+                <h1>
+                  Embark on Your Learning Journey with Our Engaging Courses
+                </h1>
+                <div class="custom-btn">
+                  <a href="#" class="my-btn">Get Started </a>
+                  <a href="#" class="my-btn"> Get free trial </a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item c-item">
+              <div class="overlay-image cover-3"></div>
+              <div class="container">
+                <h1>
+                  Empower Yourself with Knowledge: Join Our Cutting-Edge Courses
+                </h1>
+                <div class="custom-btn">
+                  <a href="#" class="my-btn">Get Started </a>
+                  <a href="#" class="my-btn"> Get free trial </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#hero-carousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#hero-carousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- ------------------*** category *** ------------------ -->
+      <section class="category">
+        <div class="margin-cate">
+          <div class="title">Explore courses by category</div>
+          <div>
+            <div class="sub-title">
+              Browse top class courses by browsing our category which will be
+              more easy for you.
+            </div>
+            <div class="outline-btn inside-btn">All Category</div>
+          </div>
+        </div>
+        <div class="container-cards">
+          <div class="card">
+            <div class="icon-cate">
+              <img src="assets/icon/paintbrush.svg" alt="" />
+            </div>
+            <div>
+              <h6>Design & Development</h6>
+              <p>250+ courses available</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="icon-cate">
+              <img src="assets/icon/volume.svg" alt="" />
+            </div>
+            <div>
+              <h6>Marketing & Communication</h6>
+              <p>300+ courses available</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="icon-cate">
+              <img src="assets/icon/digital.svg" alt="" />
+            </div>
+            <div>
+              <h6>Digital Marketing</h6>
+              <p>150+ courses available</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="icon-cate">
+              <img src="assets/icon/circle-chart.svg" alt="" />
+            </div>
+            <div>
+              <h6>Business & Consulting</h6>
+              <p>170+ courses available</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="icon-cate">
+              <img src="assets/icon/circle-dollar.svg" alt="" />
+            </div>
+            <div>
+              <h6>Finance Management</h6>
+              <p>300+ courses available</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="icon-cate">
+              <img src="assets/icon/user-.svg" alt="" />
+            </div>
+            <div>
+              <h6>Self Development</h6>
+              <p>30+ courses available</p>
+            </div>
+          </div>
+        </div>
+        <div class="outside-btn">
+          <div class="outline-btn">All Category</div>
+        </div>
+      </section>
+      <!-- ------------------*** Students Opinions *** ------------------ -->
+      <section class="students-opinions">
+        <div class="title">What our students are saying about us</div>
+        <div class="sub-title">
+          You learn today and earn tomorrow. The roots ot education are bitter
+          but the fruits are sweet If you learn today you can lead tomorrow. See
+          what our students are saying
+        </div>
+
+        <div class="items">
+          <div class="item"></div>
+          <div class="item"></div>
+          <div class="item"></div>
+          <div class="item"></div>
+          <div class="item"></div>
+          <div class="item"></div>
+        </div>
+      </section>
+      <!-- ------------------*** Newsletter *** ------------------ -->
+      <section class="newsletter">
+        <div class="title">Subscribe Newsletter</div>
+        <div class="sub-title">
+          You learn today and earn tomorrow. The roots of education are bitter
+          but the fruits are sweet.
+        </div>
+        <div class="form-news">
+          <form action="">
+            <input type="text" placeholder="Enter your Email Address" />
+            <input type="submit" value="Subscribe" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <!-- ------------------*** Footer *** ------------------ -->
+
+    <section class="section-footer">
+      <footer class="top">
+        <div class="logo-footer">
+          <img src="assets/icon/logo.svg" />
+          <div class="description">
+            Nullam nisi magna. tempor vita nulla sod. portals sodaloss tortor
+            Aonoan at sodaloss portals.
+          </div>
+          <div>Follow us</div>
+          <div class="social-media">
+            <img src="assets/icon/facebook.svg" alt="facebook" />
+            <img src="assets/icon/github.svg" alt="facebook" />
+            <img src="assets/icon/discord.svg" alt="facebook" />
+            <img src="assets/icon/linkedin.svg" alt="facebook" />
+          </div>
+        </div>
+
+        <div class="my-links">
+          <div>
+            <h2>Links</h2>
+            <a href="#">Home</a>
+            <a href="#">Courses</a>
+            <a href="#">About us</a>
+            <a href="#">Career</a>
+          </div>
+          <div>
+            <h2>Community</h2>
+            <a href="#">Go Premium</a>
+            <a href="#">Team Plans</a>
+            <a href="#">Refer a Friend</a>
+          </div>
+          <div>
+            <h2>Resources</h2>
+            <a href="#">Latest Updates</a>
+            <a href="#">Updates Newsletter</a>
+            <a href="#">Flow Management</a>
+          </div>
+          <div>
+            <h2>Support</h2>
+            <a href="#">FAQ’s</a>
+            <a href="#">Help</a>
+            <a href="#">Contact us</a>
+          </div>
+        </div>
+      </footer>
+      <footer class="bottom">
+        <div class="legal">
+          <div>&copy;Copyright B-Station 2023, All right Reserved</div>
+          <div>
+            <a href="#"> License </a>
+            <a href="#"> Terms </a>
+            <a href="#"> Privacy </a>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <script src="javascript/script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

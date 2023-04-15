@@ -1,0 +1,205 @@
+/* ----------*** Sign In Page Css code start here ***---------- */
+.sign-in {
+    margin: 100px 100px;
+}
+
+.signin-container {
+    display: grid;
+    grid-template-columns: repeat(1, auto-fit(1fr));
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin-top: -150px;
+}
+
+.signin-container img {
+    width: 50%;
+    margin: 0 25%;
+    margin-bottom: -150px;
+
+}
+
+.signin-container h4 {
+    text-align: center;
+
+}
+
+.sign-in-form {
+    display: grid;
+    gap: 9px;
+    margin-bottom: -50px;
+}
+
+.sign-in-form input {
+    background: #eff0f2;
+    height: 6vh;
+    border-radius: 10px;
+    border: #eff0f2;
+}
+
+.sign-in-form div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-in-form div label,
+a {
+    text-align: center;
+}
+
+
+#btn-signin {
+    width: 80%;
+    margin: 0 10%;
+}
+
+#btn-signin {
+    color: white;
+    background-color: #409B95;
+}
+
+#btn-signin:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid #409B95;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .signin-container h4 {
+        text-align: center;
+        font-size: 60%;
+    }
+
+    .sign-in-form div label {
+        font-size: 60%;
+    }
+
+    .sign-in-form div a {
+        font-size: 9.6px;
+    }
+}
+
+/* ----------*** Sign In Page Css code end ***---------- */
+
+
+/* ----------*** Sign Up Page Css code start here ***---------- */
+.sign-up {
+    margin: 100px 100px;
+}
+
+.signup-container {
+    display: grid;
+    grid-template-columns: repeat(1, auto-fit(1fr));
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin-top: -150px;
+}
+
+.signup-container img {
+    width: 80%;
+    margin: 0 10%;
+
+}
+
+.sign-up-form {
+    display: grid;
+    gap: 9px;
+}
+
+.sign-up-form input {
+    background: #eff0f2;
+    height: 6vh;
+    border-radius: 10px;
+    border: #eff0f2;
+}
+
+.sign-up-form div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-up-form div label,
+a {
+    text-align: center;
+}
+
+
+#btn-signup {
+    width: 50%;
+    margin: 0 25%;
+}
+
+#btn-signup {
+    color: white;
+    background-color: #409B95;
+}
+
+#btn-signup:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid #409B95;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+#haveaccount {
+    margin-top: -50px;
+    text-align: center;
+}
+
+#or {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.signupgandg {
+    display: flex;
+    justify-content: center;
+
+}
+
+.signupgandg a {
+    margin-right: 2%;
+    font-size: 80%;
+    display: flex;
+    border: 2px solid #eff0f2;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.signupgandg a img {
+    width: 35px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    #btn-signup {
+        font-size: 60%;
+    }
+
+    #haveaccount {
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .sppensignup {
+        margin-bottom: 3%;
+    }
+
+}

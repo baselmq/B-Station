@@ -1,0 +1,176 @@
+.contact-us {
+    margin: 0 100px;
+}
+
+.title-section {
+    font-size: 40px;
+    margin: 60px 0 10px;
+}
+
+.sub-title {
+    font-size: 16px;
+    margin: 30px 0;
+    line-height: 1.6rem;
+}
+
+.phone,
+.location {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.phone a {
+    color: #000000;
+    font-weight: 400;
+}
+
+.phone img,
+.location img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.social-media {
+    margin: 30px 0;
+}
+
+.social-media img {
+    width: 39px;
+    height: 39px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.form {
+    margin-bottom: 5rem;
+}
+
+.form div {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+}
+
+.form>div {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+input {
+    height: 50px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    background-color: #f1f7f7;
+}
+
+
+textarea {
+    height: 150px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f1f7f7;
+
+
+}
+::placeholder{
+   padding: 10px;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #409b95;
+    color: #ffffff;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 12px;
+    margin-top: 20px;
+    width: 120px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.container-contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.container-contact>div {
+    margin-right: 50px;
+}
+
+@media (max-width: 767px) {
+    .margin-btn {
+        width: 50px;
+        height: 50px;
+    }
+
+    .button-project div {
+        font-size: 13px;
+    }
+
+    label {
+        font-size: 15px;
+        padding: 10px 0;
+    }
+
+    input {
+        height: 40px;
+        width: 100%;
+        font-size: 14px;
+    }
+
+
+    textarea {
+        height: 80px;
+
+
+    }
+
+    .social-media img {
+        width: 35px;
+        height: 35px;
+        margin-right: 8px;
+    }
+
+
+    .button input {
+        border-radius: 10px;
+        padding: 12px;
+        margin-top: 20px;
+        width: 120px;
+        height: 45px;
+        font-size: 16px;
+
+    }
+
+    .container-contact {
+        display: block;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .button-project div {
+        font-size: 15px;
+    }
+}
+
