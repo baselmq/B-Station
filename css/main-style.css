@@ -189,6 +189,7 @@ a {
     color: #419b93;
     padding: 10px;
     border-radius: 5px;
+    text-decoration: none;
 }
 
 .outside-btn {
@@ -413,26 +414,334 @@ a {
 }
 
 .students-opinions .sub-title {
-    margin-top: 10px;
+    margin: 10px 0 20px;
     font-size: 0.9rem;
     color: #979797;
     width: 60%;
 
 }
-.items{
+
+.items {
     display: flex;
     overflow-x: auto;
 }
-.items::-webkit-scrollbar{
+
+/* .items::-webkit-scrollbar{
     display: none;
-}
-.items .item{
-    min-width: 300px;
-    height: 400px;
-    background: #ddd;
+} */
+.items .item {
+    min-width: 350px;
+    background: #ddeae9;
     margin: 10px;
+    border-radius: 10px;
+    padding: 20px;
 }
 
+.items .item .title {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+.opinions {
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #409b95;
+}
+
+.opinions img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.user {
+    display: flex;
+    margin-top: 20px;
+
+
+}
+
+.user>img {
+    width: 70px;
+    height: 70px;
+    background-color: #3a4f6a;
+    border-radius: 100px;
+    margin-right: 20px;
+    object-fit: cover;
+    object-position: 100% 0;
+
+}
+
+.opinions .comment {
+    height: 12rem;
+}
+
+.name-rate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.name {
+    font-size: 18px;
+}
+
+.rate img {
+    width: 20px;
+    height: 20px;
+}
+
+/* Mobile */
+
+@media (max-width: 767px) {
+    .students-opinions {
+        margin: 50px 20px;
+    }
+
+    .students-opinions .title {
+        font-size: 1.3rem;
+    }
+
+    .students-opinions .sub-title {
+        margin: 10px 0 20px;
+        font-size: 0.7rem;
+        width: 100%;
+
+    }
+
+    .items .item {
+        min-width: 280px;
+        margin: 5px;
+        padding: 15px;
+    }
+
+    .items .item .title {
+        font-size: 1.1rem;
+        margin-bottom: 15px;
+    }
+
+    .user>img {
+        width: 60px;
+        height: 60px;
+        margin-right: 15px;
+
+    }
+
+    .opinions .comment {
+        height: 9rem;
+        font-size: 0.8rem;
+    }
+
+    .name-rate {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .name {
+        font-size: 16px;
+    }
+
+    .rate img {
+        width: 16px;
+        height: 16px;
+    }
+
+    .items::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+/* Small Screens */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .students-opinions {
+        margin: 100px 40px;
+    }
+
+    .opinions .comment {
+        height: 12rem;
+    }
+
+    .students-opinions .sub-title {
+
+        width: 100%;
+
+    }
+
+    .items::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+/* Medium Screens */
+
+@media (min-width: 992px) {}
+
+/* ----------*** Courses ***---------- */
+.courses {
+    margin: 100px;
+}
+
+.courses>.title {
+    font-size: 1.7rem;
+}
+
+.courses .sub-title {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #979797;
+}
+
+.courses>div:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.courses .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+    gap: 2.5vw;
+    margin-top: 35px;
+}
+
+.courses .cards>div {
+    background-color: #ddeae9;
+    padding: 25px;
+    border-radius: 10px;
+
+
+}
+
+.courses .cards .one-card>img {
+    width: 100%;
+    max-height: 11rem;
+    object-fit: cover;
+    object-position: 100% 0;
+    border-radius: 10px;
+}
+
+.courses .cards a {
+    display: inline-block;
+    margin: 35px 0 20px;
+    padding: 10px;
+    background-color: #409b95;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cards p {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.bottom-card {
+    display: inline-block;
+}
+
+.bottom-card {
+    display: flex;
+    align-items: center;
+}
+
+
+.users,
+.rating,
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.bottom-card .users img,
+.rating img,
+.price img {
+    width: 1.8rem;
+    height: 1.8rem;
+    background-color: #ffffff;
+    padding: 3px;
+    border-radius: 100px;
+    margin-right: 8px;
+
+}
+
+
+/* Mobile */
+
+@media (max-width: 767px) {
+    .courses {
+        margin: 50px 20px;
+    }
+
+    .courses .title {
+        font-size: 1.4rem;
+    }
+
+    .courses .sub-title {
+        margin-top: 10px;
+        font-size: 0.7rem;
+        color: #979797;
+    }
+
+}
+
+/* Small Screens */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .courses {
+        margin: 100px 40px;
+    }
+
+    .courses .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+        gap: 2vw;
+    }
+
+    .courses .cards>div {
+        padding: 10px;
+
+    }
+
+    .courses .cards a {
+        margin: 20px 0 10px;
+        padding: 10px;
+        font-size: 11px;
+    }
+
+    .cards p {
+        font-size: 0.7rem;
+    }
+
+    .bottom-card .users img,
+    .rating img,
+    .price img {
+        width: 1.2rem;
+        height: 1.2rem;
+        padding: 3px;
+        border-radius: 100px;
+        margin-right: 8px;
+
+    }
+
+    .bottom-card .users div,
+    .rating div,
+    .price div {
+        font-size: 11px;
+    }
+
+    .courses .cards .one-card>img {
+        max-height: 6.5rem;
+    }
+}
+
+/* Medium Screens */
+
+@media (min-width: 992px) {}
 
 /* ----------*** newsletter ***---------- */
 .newsletter {

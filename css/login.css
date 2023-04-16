@@ -31,10 +31,10 @@
 }
 
 .sign-in-form input {
-    background: #eff0f2;
+    background: #f1f7f7;
     height: 6vh;
     border-radius: 10px;
-    border: #eff0f2;
+    border: #f1f7f7;
 }
 
 .sign-in-form div {
@@ -114,10 +114,10 @@ a {
 }
 
 .sign-up-form input {
-    background: #eff0f2;
+    background: #f1f7f7;
     height: 6vh;
     border-radius: 10px;
-    border: #eff0f2;
+    border: #f1f7f7;
 }
 
 .sign-up-form div {

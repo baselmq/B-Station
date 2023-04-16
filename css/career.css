@@ -50,12 +50,12 @@
 .job-link1,
 .job-link3,
 .job-link5 {
-    background-color: #ebf6ed;
+    background-color: #ddeae9;
 }
 
 .job-link2,
 .job-link4 {
-    background-color: #f7fcf8;
+    background-color: #f1f7f7;
 }
 
 @media screen and (max-width: 768px) {

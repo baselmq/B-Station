@@ -1,0 +1,94 @@
+.container {
+   
+    margin: 100px;
+  }
+  .main{
+    display: grid;
+   grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+  }
+  .card {
+    border: solid  1px #419B93;
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    height: 25rem;
+    background-color: #E1F2E5;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+}
+  .button{
+    background-color: #419B93;
+    color: white;
+    border-radius: 20px ;
+    -webkit-border-radius: 20px ;
+    -moz-border-radius: 20px ;
+    -ms-border-radius: 20px ;
+    -o-border-radius: 20px ;
+    padding: 0.8rem;
+    margin-left: 13px;
+    width: fit-content;
+    border: 1px solid green;
+}
+
+
+.num{
+    margin-top:40px ;
+    display: flex;
+    justify-content: center;
+}
+.num>div{
+    text-align: center;
+    font-size: xx-large;
+    color: #419B93;
+    margin: 10px;
+    width: 35px;
+    height: 30px;
+   
+}
+@media only screen and (max-width: 767px) {
+    .main{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap:25px;
+    }
+    .container{
+        margin-top: 10px;
+        margin-left: 60px;
+
+    }
+    .card{
+        width: 100%;
+        height: 100%;
+    }
+    .card img{
+        width: 90%;
+    }
+    
+  }
+  
+  /* Media query for screens between 768px and 991px */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    
+    .main{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:25px
+    }
+    .container{
+        margin-top: 40px;
+
+        margin-left: 100px;
+
+    }
+    .card{
+        width: 90%;
+        height: 100%;
+    }
+    .card img{
+        width: 90%;
+    }
+  }
+  
