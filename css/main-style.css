@@ -677,6 +677,10 @@ a {
         margin: 50px 20px;
     }
 
+    .courses .cards {
+        gap: 10vw;
+    }
+
     .courses .title {
         font-size: 1.4rem;
     }
@@ -720,6 +724,15 @@ a {
 
     .cards p {
         font-size: 0.7rem;
+    }
+
+    .users,
+    .rating,
+    .price {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 8px;
     }
 
     .bottom-card .users img,
@@ -964,3 +977,15 @@ footer.top {
 }
 
 /* Medium Screens */
+
+
+.number-pages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.number-pages div{
+    margin-right: 20px;
+    font-size: 20px;
+}
