@@ -14,7 +14,7 @@
     <!-- ------------------*** Header*** ------------------ -->
     <header>
       <nav class="my-navbar">
-        <a href="#" class="nav-branding"
+        <a href="../index.html" class="nav-branding"
           ><img src="../assets/icon/logo.svg" alt="logo"
         /></a>
         <ul class="nav-menu">
@@ -52,52 +52,26 @@
     <!-- ------------------*** main *** ------------------ -->
     <main>
       <!-- ------------------*** Sign Up Page *** ------------------ -->
-      <section class="sign-up">
-        <div class="signup-container">
-          <img src="../assets/images/SignUp1.png" alt="" />
-          <form action="sign-up-form" class="sign-up-form">
-            <label for="username-signup">User Name</label>
-            <input
-              type="email"
-              id="username-signup"
-              name="username-signup"
-              placeholder="&nbsp;Your full name"
-            />
-            <label for="email-signup">Email</label>
-            <input
-              type="text"
-              id="email-signup"
-              name="email-signup"
-              placeholder="&nbsp;Enter your email"
-            />
-            <label for="password-signup">Password</label>
-            <input
-              type="password"
-              id="password-signup"
-              name="password-signup"
-              placeholder="&nbsp;Password"
-            />
-            <label for="btn-signup"></label>
-            <input
-              type="submit"
-              id="btn-signup"
-              name="btn-sigupn"
-              value="Create Account"
-            />
-          </form>
+      <section class="sign-in-up center-flex">
+        <div class="title margin-bottom">Sign <span>up</span></div>
+        <form action="" class="center-flex">
+          <input type="text" placeholder="full name" />
+          <input type="email" placeholder="email" />
+          <input type="password" placeholder="password" />
+
+          <input type="submit" value="Create Account" />
+        </form>
+        <div class="change-to-login">
+          Already have an account?
+          <a href=""> Log in</a>
+        </div>
+        <div>OR</div>
+        <div class="sign-up-another-way">
           <div>
-            <h5 id="haveaccount">Already have an account? Sign In</h5>
-            <h3 id="or">OR</h3>
-            <div class="signupgandg">
-              <a href="#" class="sppensignup"
-                ><img src="../assets/icon/google.svg" alt="" /> Sign Up with
-                Google</a
-              >
-              <a href="#" class="sppensignup"
-                ><img src="../assets/icon/github.svg" alt="" /> Sign Up with
-                GitHub</a
-              >
-            </div>
+            <img src="../assets/icon/google.svg" alt="" /> Sing up with Google
+          </div>
+          <div>
+            <img src="../assets/icon/github.svg" alt="" />Sing up with GitHub
           </div>
         </div>
       </section>

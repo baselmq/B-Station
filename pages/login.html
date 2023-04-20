@@ -14,7 +14,7 @@
     <!-- ------------------*** Header*** ------------------ -->
     <header>
       <nav class="my-navbar">
-        <a href="#" class="nav-branding"
+        <a href="../index.html" class="nav-branding"
           ><img src="../assets/icon/logo.svg" alt="logo"
         /></a>
         <ul class="nav-menu">
@@ -52,43 +52,21 @@
     <!-- ------------------*** main *** ------------------ -->
     <main>
       <!-- ------------------*** SignIN Pages *** ------------------ -->
-      <section class="sign-in">
-        <div class="signin-container">
-          <!-- <h1>Sin In</h1> -->
-          <img src="../assets/images/signin1.png" alt="" />
-          <h4>sign in and managing your Courses</h4>
-          <form action="sign-in-form" class="sign-in-form">
-            <label for="username-signin"></label>
-            <input
-              type="text"
-              id="username-signin"
-              name="username-signin"
-              placeholder="&nbsp;User Name"
-            />
-            <label for="password-signin"></label>
-            <input
-              type="password"
-              id="password-signin"
-              name="password-signin"
-              placeholder="&nbsp;Password"
-            />
-            <div>
-              <div>
-                <input type="checkbox" id="remember" name="remember" />
-                <label for="remember">&nbsp;Remember Me</label>
-              </div>
-              <a href="#">Forgot Password?</a>
-            </div>
-            <label for="btn-signin"></label>
-            <input
-              type="submit"
-              id="btn-signin"
-              name="btn-signin"
-              text="Sign In"
-              value="Sign In"
-            />
-          </form>
-        </div>
+      <section class="sign-in-up center-flex">
+        <div class="title">Sign <span>in</span></div>
+        <div class="sub-title">Sign in and start managing your candidates!</div>
+        <form action="" class="center-flex">
+          <input type="text" placeholder="email" />
+          <input type="password" placeholder="password" />
+          <div class="checkbox-forgot">
+            <label>
+              <input type="checkbox" />
+              Remember me
+            </label>
+            <a href=""> Forgot Password? </a>
+          </div>
+          <input type="submit" value="Login" />
+        </form>
       </section>
     </main>
     <!-- ------------------*** Footer *** ------------------ -->
